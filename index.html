@@ -1,64 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SkillShare</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bentham&family=Julius+Sans+One&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bentham&family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Header with logo and login link -->
     <header>
-        <div class="logo">SkillShare</div>
+      <div class="center-content">
+        <div class="logo">
+          <img src="./images/icon.png" alt="logo" width="40px" />
+          <span>SkillShare</span>
+        </div>
         <a href="#" class="login">Login</a>
+      </div>
     </header>
-
     <!-- Main Content with Split Screen -->
     <main class="split-screen">
-        <!-- Find Skills Section -->
-        <section class="left-section">
-            <h2>Find Skills</h2>
-            <a href="skills.html" class="icon">🔍</a>
-            <div class="card">
-                <p class="name">Name</p>
-                <span class="tag">Figma</span>
-                <p class="description">This is the description of the skill. This is the description of the skill.</p>
-            </div>
-            <div class="card">
-                <p class="name">Name</p>
-                <span class="tag">Figma</span>
-                <p class="description">This is the description of the skill. This is the description of the skill.</p>
-            </div>
-        </section>
+      <!-- Find Skills Section -->
+      <section class="left-section">
+        <h2>Find Skills</h2>
+        <a href="skills.html" class="icon"
+          ><img
+            src="./images/mag-white.png"
+            alt="magnifier icon"
+            width="40px"
+            height="40px"
+        /></a>
+        <div class="card">
+          <p class="name">Name</p>
+          <p class="owner">Current Position</p>
+          <span class="tag">Skill</span>
+          <span class="tag">Skill</span>
+          <span class="tag">Skill</span>
+          <p class="description">
+            This is the description of relevant skills and experiences.
+          </p>
+        </div>
+        <div class="card">
+          <p class="name">Name</p>
+          <p class="owner">Current Position</p>
+          <span class="tag">Skill</span>
+          <span class="tag">Skill</span>
+          <span class="tag">Skill</span>
+          <p class="description">
+            This is the description of relevant skills and experiences.
+          </p>
+        </div>
+      </section>
 
-        <!-- Find Projects Section -->
-        <section class="right-section">
-            <h2>Find Projects</h2>
-            <a href="projects.html" class="icon">🔍</a>
-            <div class="card">
-                <p class="project-name">Project Name</p>
-                <p class="owner">Sissi</p>
-                <div class="tags">
-                    <span class="tag">Figma</span>
-                    <span class="tag">Figma</span>
-                    <span class="tag">Figma</span>
-                </div>
-                <p class="description">This is the description of the project. This is the description of the project.</p>
-            </div>
-            <div class="card">
-                <p class="project-name">Project Name</p>
-                <p class="owner">Sissi</p>
-                <div class="tags">
-                    <span class="tag">Figma</span>
-                    <span class="tag">Figma</span>
-                    <span class="tag">Figma</span>
-                </div>
-                <p class="description">This is the description of the project. This is the description of the project.</p>
-            </div>
-        </section>
+      <!-- Find Projects Section -->
+      <section class="right-section">
+        <h2>Find Projects</h2>
+        <a href="projects.html" class="icon"
+          ><img
+            src="./images/magnifier.png"
+            alt="magnifier icon"
+            width="40px"
+            height="40px"
+        /></a>
+        <div class="card">
+          <p class="project-name">Project Name</p>
+          <p class="owner">Owner</p>
+          <div class="tags">
+            <span class="tag">skill</span>
+            <span class="tag">skill</span>
+            <span class="tag">skill</span>
+          </div>
+          <p class="description">
+            This is the description of the project, and other related
+            information.
+          </p>
+        </div>
+        <div class="card">
+          <p class="project-name">Project Name</p>
+          <p class="owner">Owner</p>
+          <div class="tags">
+            <span class="tag">skill</span>
+            <span class="tag">skill</span>
+            <span class="tag">skill</span>
+          </div>
+          <p class="description">
+            This is the description of the project, and other related
+            information.
+          </p>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>

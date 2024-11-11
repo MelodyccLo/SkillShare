@@ -19,22 +19,34 @@ body {
 /* Header */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; 
     align-items: center;
-    padding: 1rem;
-    border-bottom: 1px solid #ccc;
-}
-
-.logo {
+    height: 60px; 
+    background-color: #f8f8f8; 
+  }
+  
+  .center-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
-}
-
-.login {
+    font-family: 'Julius Sans One', sans-serif; 
+  }
+  
+  .login {
+    position: absolute;
+    right: 20px; 
+    font-size: 1rem;
     text-decoration: none;
     color: #333;
-    font-size: 1rem;
-}
+  }
+  
 
 /* Split Screen */
 .split-screen {
@@ -68,7 +80,7 @@ h2 {
 /* Icon */
 .icon {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    padding-bottom: 10px;
 }
 
 /* Card Styling */
