@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bentham&family=Julius+Sans+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        /* General Reset */
+        .julius-sans-one-regular {
+            font-family: "Julius Sans One", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        } 
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Julius Sans One", sans-serif;
+        }
+        
+        /* Body styling */
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        /* Main container */
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* User Profile section */
+        .user-profile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .user-details {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+
+        .user-info {
+            flex: 1;
+            margin-left: 20px;
+        }
+
+        .user-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .contact-button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Skills Section */
+        .skills-section, .projects-section {
+            margin-top: 30px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .skill-level {
+            background-color: #d8e3d7;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        /* Projects Section */
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .project-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .project-skills {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 10px;
+        }
+
+        .project-skill {
+            background-color: #d8e3d7;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+
+        .project-description {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- User Profile Section -->
+        <div class="user-profile">
+            <div class="avatar"></div>
+            <div class="user-info">
+                <div class="user-name">USER NAME</div>
+                <div class="user-details">
+                    <p>Email: xxxxxx@gmail.com</p>
+                    <p>LinkedIn: xxxxxx</p>
+                    <p>Self Introduction: Hello! Hello! Hello! Hello!</p>
+                </div>
+            </div>
+            <button class="contact-button">Contact</button>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="skills-section">
+            <div class="section-title">SKILLS</div>
+            <div class="skills-list">
+                <div>
+                    <span class="skill-level">Skill Beginner</span>
+                    <ul>
+                        <li>First thing you know about Figma</li>
+                        <li>Second thing you know about Figma</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="skill-level">Skill Intermediate</span>
+                    <ul>
+                        <li>First thing you know about Figma</li>
+                        <li>Second thing you know about Figma</li>
+                    </ul>
+                </div>
+                <div>
+                    <span class="skill-level">Skill Master</span>
+                    <ul>
+                        <li>First thing you know about Figma</li>
+                        <li>Second thing you know about Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="projects-section">
+            <div class="section-title">PROJECTS</div>
+            <div class="project-card">
+                <div class="project-title">Project Name</div>
+                <div class="project-skills">
+                    <span class="project-skill">Skill</span>
+                    <span class="project-skill">Skill</span>
+                    <span class="project-skill">Skill</span>
+                </div>
+                <div class="project-description">
+                    This is the description of the project. This is the description of the project.
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-title">Project Name</div>
+                <div class="project-skills">
+                    <span class="project-skill">Skill</span>
+                    <span class="project-skill">Skill</span>
+                    <span class="project-skill">Skill</span>
+                </div>
+                <div class="project-description">
+                    This is the description of the project. This is the description of the project.
+                </div>
+            </div>
+        </div>
+    </
