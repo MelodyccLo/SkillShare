@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.login {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+/* Split Screen */
+.split-screen {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjusts for header height */
+}
+
+.left-section, .right-section {
+    flex: 1;
+    padding: 2rem;
+}
+
+.left-section {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.right-section {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Icon */
+.icon {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Card Styling */
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    text-align: left;
+    color: inherit;
+}
+
+.right-section .card {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+}
+
+/* Card Content */
+.name, .project-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.owner {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+/* Tag Styling */
+.tag {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+/* Header (same as index.html) */
+.profile-icon {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Search Page Styling */
+.search-page {
+    text-align: center;
+    padding: 2rem;
+}
+
+.search-page h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.search-bar {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.skill-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.skill-icon span {
+    font-size: 2rem;
+}
+
+.skill-icon p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
