@@ -140,6 +140,13 @@ h2 {
     padding: 2rem;
 }
 
+/* Search Page Styling */
+.search-page-2 {
+    text-align: center;
+    padding: 2rem;
+    background-color: #000;
+}
+
 .search-page h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
