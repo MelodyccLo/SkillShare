@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
+.julius-sans-one-regular {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }   
+
+body {   
+    font-family: "Julius Sans One", sans-serif;
     color: #333;
 }
 
@@ -102,7 +108,7 @@ h2 {
 /* Tag Styling */
 .tag {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: #4f9951;
     color: #fff;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
