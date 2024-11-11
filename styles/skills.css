@@ -1,0 +1,44 @@
+/* Header styling */
+#main-header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Aligns content to the edges */
+    align-items: center;
+    position: relative;
+  }
+  
+  /* Center content wrapper */
+  .center-content {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+    align-items: center;
+    width: 100%; /* Ensures the container takes up full width */
+  }
+  
+  /* Logo styling */
+  .logo a {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  /* Profile icon styling */
+  .profile-icon {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    right: 20px; /* Keeps it on the right edge */
+  }
+
+  .color {
+    color: white;
+  }
+  
